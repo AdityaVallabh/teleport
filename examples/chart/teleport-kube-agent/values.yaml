@@ -491,7 +491,7 @@ jamfCredentialsSecret:
 # If you want to run Teleport version `X.Y.Z`, you should use
 # `helm install --version X.Y.Z` instead.
 # </Admonition>
-teleportVersionOverride: ""
+teleportVersionOverride: "17.2.7"
 
 # caPin(list) -- is a list of CA pins the agent must validate when joining
 # the Teleport cluster to ensure it is connecting to the correct Auth Service.
